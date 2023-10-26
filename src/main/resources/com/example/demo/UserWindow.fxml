@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1122.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.demo.UserController">
+   <children>
+      <AnchorPane layoutX="182.0" layoutY="35.0" prefHeight="128.0" prefWidth="959.0" styleClass="user-bg" stylesheets="@UserDesign.css">
+         <children>
+            <Label layoutX="119.0" layoutY="14.0" prefHeight="43.0" prefWidth="706.0" text="Posts and Telecommunications Institute of Technology" textFill="WHITE">
+               <font>
+                  <Font size="29.0" />
+               </font></Label>
+         </children></AnchorPane>
+      <AnchorPane prefHeight="709.0" prefWidth="182.0" styleClass="user-bg" stylesheets="@UserDesign.css">
+         <children>
+            <ImageView fitHeight="41.0" fitWidth="40.0" layoutX="74.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@ImageView/PTIT_logo.png" />
+               </image>
+            </ImageView>
+            <Label ellipsisString="" layoutX="55.0" layoutY="180.0" text="Welcome!" textAlignment="CENTER" textFill="WHITE">
+               <font>
+                  <Font size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="userName" alignment="CENTER" contentDisplay="CENTER" layoutX="23.0" layoutY="222.0" prefHeight="43.0" prefWidth="136.0" text="User Name" textAlignment="CENTER" textFill="WHITE" textOverrun="CENTER_WORD_ELLIPSIS" wrapText="true">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+            <ImageView fx:id="userImage" fitHeight="86.0" fitWidth="94.0" layoutX="47.0" layoutY="77.0" pickOnBounds="true">
+               <image>
+                  <Image url="@ImageView/anonymous-user.png" />
+               </image></ImageView>
+            <Button id="userHomeButton" fx:id="userHomeButton" layoutX="38.0" layoutY="304.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="106.0" styleClass="userHomeButton" stylesheets="@UserDesign.css" text="Home" textFill="WHITE" AnchorPane.bottomAnchor="369.0" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="38.0" AnchorPane.topAnchor="304.0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button id="userHomeButton" fx:id="userHomeButton1" layoutX="38.0" layoutY="355.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="106.0" styleClass="userHomeButton" stylesheets="@UserDesign.css" text="Home" textFill="WHITE" AnchorPane.leftAnchor="38.0" AnchorPane.rightAnchor="38.0" AnchorPane.topAnchor="355.0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button id="userHomeButton" fx:id="userHomeButton11" layoutX="37.0" layoutY="404.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="106.0" styleClass="userHomeButton" stylesheets="@UserDesign.css" text="Home" textFill="WHITE" AnchorPane.topAnchor="406.0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Button id="userHomeButton" fx:id="userHomeButton111" layoutX="37.0" layoutY="456.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="106.0" styleClass="userHomeButton" stylesheets="@UserDesign.css" text="Home" textFill="WHITE" AnchorPane.topAnchor="456.0">
+               <font>
+                  <Font size="19.0" />
+               </font>
+            </Button>
+            <Hyperlink ellipsisString="" graphicTextGap="0.0" layoutX="15.0" layoutY="679.0" prefHeight="34.0" prefWidth="149.0" styleClass="hyperLink" stylesheets="@UserDesign.css" text="Click here for refort issues!" textFill="#f43c3c" />
+         </children></AnchorPane>
+      <AnchorPane layoutX="181.0" layoutY="163.0" prefHeight="546.0" prefWidth="959.0" stylesheets="@UserDesign.css">
+         <children>
+            <AnchorPane layoutX="124.0" layoutY="157.0" prefHeight="116.0" prefWidth="250.0" styleClass="totalStudent" stylesheets="@UserDesign.css">
+               <children>
+                  <Label layoutX="26.0" layoutY="29.0" prefHeight="26.0" prefWidth="96.0" text="Total Students" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="477.0" layoutY="157.0" prefHeight="116.0" prefWidth="250.0" styleClass="totalGraduated" stylesheets="@UserDesign.css">
+               <children>
+                  <Label layoutX="26.0" layoutY="29.0" prefHeight="26.0" prefWidth="122.0" text="Total Graduated" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="124.0" layoutY="321.0" prefHeight="116.0" prefWidth="250.0" styleClass="totalItStudents" stylesheets="@UserDesign.css">
+               <children>
+                  <Label layoutX="26.0" layoutY="29.0" prefHeight="26.0" prefWidth="112.0" text="Total IT Students" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <AnchorPane layoutX="477.0" layoutY="321.0" prefHeight="116.0" prefWidth="250.0" styleClass="totalAtStudents" stylesheets="@UserDesign.css">
+               <children>
+                  <Label layoutX="26.0" layoutY="29.0" prefHeight="26.0" prefWidth="121.0" text="Total AT Students" textFill="WHITE">
+                     <font>
+                        <Font size="15.0" />
+                     </font>
+                  </Label>
+               </children>
+            </AnchorPane>
+            <Label layoutX="218.0" layoutY="63.0" text="Thêm chức năng như tìm kiếm sinh viên, bảng thông báo mới, chat với user khác." textAlignment="CENTER" textFill="#715858">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>
